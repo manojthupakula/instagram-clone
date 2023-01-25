@@ -1,0 +1,480 @@
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+}
+
+.instalogo {
+  margin: -10px;
+  padding: 0px;
+  display: inline-block;
+  margin: 0px;
+}
+.logos {
+  height: 90px;
+  width: 100px;
+}
+.k {
+  margin-left: 195px;
+  background-color: white;
+  border-radius: 20px;
+}
+.textbox {
+  background-color: rgb(247, 247, 247);
+  border-style: inset;
+  border-radius: 10px;
+  border-right: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.add {
+  background-color: green; /* Green */
+  border: none;
+  margin-left: 10px;
+}
+.button {
+  padding: 5px 5px;
+  background-color: green;
+  border: none;
+}
+.right {
+  margin-left: 840px;
+}
+.ri-add-circle-line {
+  margin-left: 3px;
+}
+.text-box {
+  border: none;
+}
+.img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin-left: 20px;
+}
+.dua {
+  margin-left: 30px;
+}
+.verify {
+  height: 30px;
+  width: 30px;
+  margin-top: -10px;
+  padding-top: 5px;
+  margin-right: 2px;
+}
+.fig {
+  display: flex;
+  flex-direction: row;
+}
+.manu {
+  text-align: inline-block;
+  margin-bottom: 10px;
+}
+.span1 {
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+.span2 {
+  margin-left: 45px;
+  margin-bottom: 0px;
+}
+.span3 {
+  margin-left: 45px;
+  margin-bottom: 0px;
+}
+.manu {
+  margin-top: 10px;
+}
+.span4 {
+  padding-top: 10px;
+  margin-left: 2px;
+  font-size: 20px;
+  margin-top: -10px;
+}
+.span5 {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.span6 {
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.manu1 {
+  margin-top: 5px;
+}
+.feed {
+  display: flex;
+}
+.ri-layout-grid-line {
+  height: 20px;
+}
+.feed {
+  font-size: 25px;
+  height: 2rem;
+  margin-bottom: 15px;
+}
+.feed2 {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.feed1 {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.feed:hover {
+  padding-bottom: 10px;
+  color: #ff105c;
+}
+.notification {
+  font-size: 25px;
+  height: 2rem;
+  margin-bottom: 15px;
+}
+.notification2 {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.notification1 {
+  margin-top: -30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.notification:hover {
+  padding-bottom: 10px;
+  color: #ff105c;
+}
+.explore:hover {
+  padding-bottom: 10px;
+  color: #ff105c;
+}
+.explore {
+  font-size: 25px;
+  height: 2rem;
+  margin-bottom: 15px;
+}
+.explore2 {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.explore1 {
+  margin-top: -30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.message:hover {
+  padding-bottom: 10px;
+  color: #ff105c;
+}
+.message {
+  font-size: 25px;
+  height: 2rem;
+  margin-bottom: 15px;
+}
+.message2 {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.message1 {
+  margin-top: -30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.direct:hover {
+  padding-bottom: 10px;
+  color: #ff105c;
+}
+.direct {
+  font-size: 25px;
+  height: 2rem;
+  margin-bottom: 15px;
+}
+.direct2 {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.direct1 {
+  margin-top: -30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.stats:hover {
+  padding-bottom: 10px;
+  color: #ff105c;
+}
+.stats {
+  font-size: 25px;
+  height: 2rem;
+  margin-bottom: 15px;
+}
+.stats {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.stats1 {
+  margin-top: -30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.setting:hover {
+  padding-bottom: 10px;
+  color: #ff105c;
+}
+.setting {
+  font-size: 25px;
+  height: 2rem;
+  margin-bottom: 15px;
+}
+.setting2 {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.setting1 {
+  margin-top: -30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.logout:hover {
+  padding-bottom: 10px;
+  color: #ff105c;
+}
+.logout {
+  font-size: 25px;
+  height: 2rem;
+  margin-bottom: 15px;
+}
+.logout2 {
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.logout1 {
+  margin-top: -30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.side {
+  float: left;
+}
+.stories {
+  margin-left: 300px;
+  font-size: 30px;
+  margin-top: -10px;
+}
+.profile2 {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  margin-left: 100px;
+  margin-top: -10px;
+}
+.profile3 {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.profile4 {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.profile5 {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.profile6 {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.profile7 {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  margin-left: 30px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.profile8 {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.profile9 {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+.feed10 {
+  font-size: 30px;
+  margin-left: 300px;
+}
+.post1 {
+  height: 400px;
+  width: 300px;
+  margin-left: 70px;
+  border-radius: 20px;
+}
+.post2 {
+  height: 400px;
+  width: 300px;
+  margin-left: 80px;
+  border-radius: 20px;
+}
+.post3 {
+  height: 400px;
+  width: 300px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+.post {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 15px;
+  margin-left: 310px;
+  border-radius: 30px;
+}
+.manoj {
+  margin-left: 340px;
+  margin-top: -50px;
+  font-size: 25px;
+}
+.likes1 {
+  margin-left: 2px;
+  margin-top: -28px;
+  font-size: 25px;
+}
+.heart {
+  display: flex;
+}
+.likes2 {
+  margin-top: -28px;
+  margin-left: 430px;
+  font-size: 23px;
+  padding-top: -10px;
+}
+.likes3 {
+  margin-left: 5px;
+  margin-top: -28px;
+  font-size: 25px;
+}
+.likes4 {
+  margin-top: -30px;
+  margin-left: 28px;
+  font-size: 23px;
+  padding-top: -10px;
+}
+.post9 {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 15px;
+  margin-left: 310px;
+  border-radius: 30px;
+}
+.manoj9 {
+  margin-left: 340px;
+  margin-top: -50px;
+  font-size: 25px;
+}
+.likes10 {
+  margin-left: 2px;
+  margin-top: -28px;
+  font-size: 25px;
+}
+.heart {
+  display: flex;
+}
+.likes9 {
+  margin-top: -28px;
+  margin-left: 430px;
+  font-size: 23px;
+  padding-top: -10px;
+}
+.likes11 {
+  margin-left: 5px;
+  margin-top: -28px;
+  font-size: 25px;
+}
+.likes12 {
+  margin-top: -30px;
+  margin-left: 28px;
+  font-size: 23px;
+  padding-top: -10px;
+}
+.post100 {
+  margin-left: 380px;
+  margin-top: -42px;
+}
+.post90 {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 15px;
+  margin-left: 310px;
+  border-radius: 30px;
+}
+.manoj90 {
+  margin-left: 340px;
+  margin-top: -50px;
+  font-size: 25px;
+}
+.likes91 {
+  margin-left: 2px;
+  margin-top: -28px;
+  font-size: 25px;
+}
+.heart90 {
+  display: flex;
+}
+.likes90 {
+  margin-top: -28px;
+  margin-left: 430px;
+  font-size: 23px;
+  padding-top: -10px;
+}
+.likes92 {
+  margin-left: 5px;
+  margin-top: -28px;
+  font-size: 25px;
+}
+.likes93 {
+  margin-top: -30px;
+  margin-left: 28px;
+  font-size: 23px;
+  padding-top: -10px;
+}
+.post200 {
+  margin-left: 780px;
+  margin-top: -60px;
+}
